@@ -4,8 +4,14 @@
 // History working
 // Link contact
 
+import Header from "../components/Header";
+// import Introduce from "../components/Introduce";
+
 function Porfolio() {
-	return <div>ABC</div>;
+	return <div>
+		<Header />
+		{/* <Introduce /> */}
+	</div>;
 }
 
 export default Porfolio;
